@@ -3,9 +3,7 @@
 //start a session
 session_start();
 
-/**
- * Start the autolaoder
- */
+// start autoloader
 require_once __DIR__ . '/framework/autoloader.php';
 
 $autoloader = new Framework\Autoloader();
